@@ -2,6 +2,8 @@
 
 *Spec-Driven Software Factory series — Article 5*
 
+**SMS v1.6 source**: [Specification](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md) · [Reference Examples](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Reference-Examples.md)
+
 When most software organizations talk about “competitive advantage,” they talk about features, velocity, and the cleverness of their engineers. That framing made sense when code was scarce and building a reliable system was the primary bottleneck.
 
 In a spec-driven factory era, the bottleneck moves.

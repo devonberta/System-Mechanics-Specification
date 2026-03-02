@@ -2,6 +2,8 @@
 
 *Spec-Driven Software Factory series — Article 1*
 
+**SMS v1.6 source**: [Specification](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md) · [Quick Reference](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Quick-Reference.md)
+
 In Article 0, we talked about the paradox of AI-accelerated software: **faster code, slower coherence**. That paradox is just another way of describing the **entropy curve**: output increases, but without standardization, inconsistency rises faster than value.
 
 This article makes that curve concrete by following two companies that start in different worlds—but end up chasing the same destination.

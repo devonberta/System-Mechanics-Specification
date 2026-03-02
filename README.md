@@ -1,18 +1,52 @@
-# Systems Mechanics Specification
+# System Mechanics Specification (SMS)
 
-The origins of this specification came out of a discussion with ChatGPT about how our specification standards continually devolve into implementation details over time with limited scopes that fail to encompass a holistic view of software and its purpose. While specifications serve fixed purposes this trend made me question should we reconsider what a specification is targeted at tracking.
+SMS is an **intent-first**, **normative**, **verifiable** specification for describing the full lifecycle of software systems—product intent, system mechanics, governance, and operational posture—in one artifact surface.
 
-Out of this the only viable thing that made sense across all domains was to attempt to track and define intent for the system to be built and operated. Declaring intent in terms that were free of implementation details and focused on allowing consequences and fast feedback loops to be identified easily became the goal. 
+The goal is not “better documentation.” The goal is a foundation for **spec-driven software factories**: a world where the unit of truth is a validated artifact set, and software can be produced and evolved with deterministic safety gates.
 
-The specification has gone through many versions and is still evolving with some of the current enhancements being syntactical in nature normalizing drift that has happened with each iteration. I have included the various versions in this repository so the evolution could be understood and the changes over time tracked. 
+## Why this exists (the thesis)
 
-The examples provided here cover the formal grammer, reference implementation guiding criteria, examples, and the serveral guiding concepts such as:
-* Constraint driven system design ( Invariants )
-* Decomposition as a modeling behavior ( If you are stuck weighing trade offs then you haven't broken the problem down far enough into the criteria you need to describe the problem )
-* Working with LLM's to identify gaps in the design and having them reframe the requirement of the industry into an intent first component that can be integrated into the specificaiton
+As software throughput increases (especially with AI), organizations hit a familiar failure mode: **faster code, slower coherence**. Without a shared, verifiable unit of truth, change accelerates entropy faster than value.
 
-Some metrics about this system:
-* Built over 3 months with help of Claude Opus 4.5/4.6, Sonnet 4.5/4.6, and ChatGPT 5.2 models
-* Over 1 Billion Tokens processed in the iteration of this specifcation and likely to achieve serveral billion more before specification is for all purposes feature complete
+SMS is an attempt to put the “meaning of the system” into a form that can be:
 
-I hope any reviewer or potential collaborate on this specification finds it insightful and thought provoking. If we can define the language there is nothing stopping us from then centralizing on a standard implementation for this grammar and being able to usher in the industrialization of software production without the continual iteration over entire codebases with LLMs. THe ability to convert specification to constraints and deterministic code generation with the last mile of code development being fufilled by LLMs means that we can efficeintly, safely, and correctly produce software. 
+- **validated** deterministically (normative MUST/SHALL/MAY rules)
+- **bounded** by explicit **invariants** (e.g., transport boundaries, governance enforcement)
+- **promoted and audited** as versioned **artifacts** via a **control plane**
+- **compiled** into runtime scaffolding and behavior, then **verified** back against the declared constraints
+
+## Core ideas (aligned with the article series)
+
+- **Intent-first**: declared intent + flows/transitions are primary; endpoints, services, and UIs are compilation targets.
+- **Safety boundary = validators + gates**: LLMs can propose artifacts; deterministic validation decides what becomes real.
+- **The 95% / 5% split**:
+  - **95% pattern-based scaffolding**: deterministic generation of repeated structure (wiring, routing bindings, storage/caching bindings, observability hooks, retries/backoff, client sync/cache posture).
+  - **5% constraint-to-logic synthesis**: compile declared constraints, policies, invariants, guards, and transition rules into executable behavior—then verify it against those same declarations.
+- **Build + run closure (v1.6)**: infrastructure intent is part of the same artifact set (resources, storage, caching, routing, client behavior), so operations is not a separate language.
+
+## Start here (SMS v1.6 optimized)
+
+The recommended entrypoint is `1.6_spec_optimized/` (consolidated docs, optimized for humans and LLM workflows):
+
+- **Specification (normative)**: [`SMS-v1.6-Specification.md`](1.6_spec_optimized/SMS-v1.6-Specification.md)
+- **Quick reference**: [`SMS-v1.6-Quick-Reference.md`](1.6_spec_optimized/SMS-v1.6-Quick-Reference.md)
+- **Implementation guide**: [`SMS-v1.6-Implementation-Guide.md`](1.6_spec_optimized/SMS-v1.6-Implementation-Guide.md)
+- **Reference examples**: [`SMS-v1.6-Reference-Examples.md`](1.6_spec_optimized/SMS-v1.6-Reference-Examples.md)
+- **Formal EBNF grammar**: [`SMS-v1.6-EBNF-Grammar.md`](1.6_spec_optimized/SMS-v1.6-EBNF-Grammar.md)
+
+## Article series (software factory framing)
+
+If you want the narrative framing first, start with the series introduction:
+
+- [`The End of “Software as Craft”`](articles/medium-article-0-the-end-of-software-as-craft.md)
+
+## Version history
+
+This repository includes multiple versions so the evolution can be inspected:
+
+- `1.1_1.3/`, `1.4_spec/`, `1.5_spec/`, `1.6_spec/`: modular documents by topic
+- `*_spec_optimized/`: consolidated, “reader-first” documents (recommended for most readers)
+
+## Notes
+
+This specification is still evolving. Contributions are welcome, especially around strengthening invariants, improving normative validation clarity, and expanding reference examples while preserving the intent-first boundary.

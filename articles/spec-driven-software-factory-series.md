@@ -4,6 +4,14 @@ This file is a **working skeleton** for an article series describing the overarc
 
 It is intentionally written as an outline you can expand into publishable articles.
 
+## SMS v1.6 source documents (optimized)
+
+- [SMS v1.6 Specification (normative)](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md)
+- [SMS v1.6 Quick Reference](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Quick-Reference.md)
+- [SMS v1.6 Implementation Guide](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Implementation-Guide.md)
+- [SMS v1.6 Reference Examples](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Reference-Examples.md)
+- [SMS v1.6 EBNF Grammar](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-EBNF-Grammar.md)
+
 ---
 
 ## TL;DR / Executive Summary

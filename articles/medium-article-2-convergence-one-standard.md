@@ -2,6 +2,8 @@
 
 *Spec-Driven Software Factory series — Article 2*
 
+**SMS v1.6 source**: [Specification](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md) · [Quick Reference](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Quick-Reference.md)
+
 In Article 0, we talked about the **entropy curve**: AI increases output, but without standardization, inconsistency rises faster than value. In Article 1, we watched NewCo and IncumbCo collide with the same truth from different directions: if you can’t validate the *meaning* of the system deterministically, you can’t scale change safely.
 
 This article makes the convergence argument explicit.

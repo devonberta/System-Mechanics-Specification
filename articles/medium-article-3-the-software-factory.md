@@ -2,6 +2,8 @@
 
 *Spec-Driven Software Factory series — Article 3*
 
+**SMS v1.6 source**: [Specification](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md) · [Implementation Guide](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Implementation-Guide.md)
+
 In Article 2, we argued that a uniform standard only “wins” if it clears a **minimum completeness bar**: it must be able to express and validate the system’s meaning across product intent, engineering semantics, and operational constraints—so seams stop being where the cost hides.
 
 This article turns that idea into an industrial pipeline. Not “automation” in the abstract, but a **software factory** in the literal sense:

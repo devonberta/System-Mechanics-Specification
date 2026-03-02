@@ -2,6 +2,8 @@
 
 *Spec-Driven Software Factory series — Article 4*
 
+**SMS v1.6 source**: [Specification](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md) · [Implementation Guide](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Implementation-Guide.md)
+
 Article 3 described the factory as an industrial pipeline: **author → validate → generate → verify → promote → enforce → learn**. Many teams stop the story at “promote.” That’s where the old mental model ends: deploy the thing, keep it up, and treat operations as a separate craft.
 
 But a factory that can safely produce change at high throughput creates a new bottleneck: **operational coherence**. If you can generate and ship faster than you can *understand and steer outcomes*, the entropy curve returns—just wearing an “SRE” badge.

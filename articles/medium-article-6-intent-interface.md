@@ -2,6 +2,8 @@
 
 *Spec-Driven Software Factory series — Article 6*
 
+**SMS v1.6 source**: [Specification](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md) · [Quick Reference](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Quick-Reference.md)
+
 Article 0 opened with a paradox: **AI makes code faster, but coherence slower**. That was the entropy curve in disguise—output rises, but without a uniform way to express and validate meaning, inconsistency rises faster than value.
 
 Across Articles 1–5, we built the escape hatch: a normative, verifiable, intent-first artifact layer (SMS v1.6 as the anchor) and a deterministic factory pipeline to validate, generate, promote, and operate systems safely.
