@@ -5,20 +5,20 @@
 ## Series links (placeholders)
 
 - **Article 0 (this post)**: The End of “Software as Craft”
-- **Article 1**: [Two Companies, Same Destination](URL_TBD_ARTICLE_1)
-- **Article 2**: [Convergence — One Standard Across Product + Engineering + Ops](URL_TBD_ARTICLE_2)
-- **Article 3**: [The Software Factory — Deterministic Production, Verified Safety](URL_TBD_ARTICLE_3)
-- **Article 4**: [Operating the Factory — From DevOps to System Stewardship](URL_TBD_ARTICLE_4)
-- **Article 5**: [Value Migration — From Code to Business Integration](URL_TBD_ARTICLE_5)
-- **Article 6**: [The “Intent Interface” Replaces Apps](URL_TBD_ARTICLE_6)
+- **Article 1**: [Two Companies, Same Destination](medium-article-1-two-companies-same-destination.md)
+- **Article 2**: [Convergence — One Standard Across Product + Engineering + Ops](medium-article-2-convergence-one-standard.md)
+- **Article 3**: [The Software Factory — Deterministic Production, Verified Safety](medium-article-3-the-software-factory.md)
+- **Article 4**: [Operating the Factory — From DevOps to System Stewardship](medium-article-4-operating-the-factory.md)
+- **Article 5**: [Value Migration — From Code to Business Integration](medium-article-5-value-migration.md)
+- **Article 6**: [The “Intent Interface” Replaces Apps](medium-article-6-intent-interface.md)
 
 ## SMS v1.6 references (source documents)
 
-- [SMS v1.6 Specification (normative)](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Specification.md)
-- [SMS v1.6 Quick Reference](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Quick-Reference.md)
-- [SMS v1.6 Implementation Guide](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Implementation-Guide.md)
-- [SMS v1.6 Reference Examples](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-Reference-Examples.md)
-- [SMS v1.6 EBNF Grammar](https://github.com/devonberta/System-Mechanics-Specification/blob/main/1.6_spec_optimized/SMS-v1.6-EBNF-Grammar.md)
+- [SMS v1.6 Specification (normative)](../1.6_spec_optimized/SMS-v1.6-Specification.md)
+- [SMS v1.6 Quick Reference](../1.6_spec_optimized/SMS-v1.6-Quick-Reference.md)
+- [SMS v1.6 Implementation Guide](../1.6_spec_optimized/SMS-v1.6-Implementation-Guide.md)
+- [SMS v1.6 Reference Examples](../1.6_spec_optimized/SMS-v1.6-Reference-Examples.md)
+- [SMS v1.6 EBNF Grammar](../1.6_spec_optimized/SMS-v1.6-EBNF-Grammar.md)
 
 ---
 
@@ -173,6 +173,6 @@ In the next article, we’ll make this concrete with the **NewCo vs IncumbCo** j
 
 ## Series navigation
 
-- **Next**: [Article 1 — Two Companies, Same Destination](URL_TBD_ARTICLE_1)
-- **Series index**: [Article 0 — The End of “Software as Craft”](URL_TBD_ARTICLE_0)
+- **Next**: [Article 1 — Two Companies, Same Destination](medium-article-1-two-companies-same-destination.md)
+- **Series index**: [Article 0 — The End of “Software as Craft”](medium-article-0-the-end-of-software-as-craft.md)
 

@@ -151,6 +151,6 @@ When intent becomes the interface, software stops being a collection of screens 
 
 ## Series navigation
 
-- **Previous**: [Article 5 — Value Migration — From Code to Business Integration](URL_TBD_ARTICLE_5)
-- **Series index**: [Article 0 — The End of “Software as Craft”](URL_TBD_ARTICLE_0)
+- **Previous**: [Article 5 — Value Migration — From Code to Business Integration](medium-article-5-value-migration.md)
+- **Series index**: [Article 0 — The End of “Software as Craft”](medium-article-0-the-end-of-software-as-craft.md)
 

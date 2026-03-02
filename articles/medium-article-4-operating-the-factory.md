@@ -178,6 +178,6 @@ In Article 5, we’ll zoom out again to the economics: once factories make most 
 
 ## Series navigation
 
-- **Previous**: [Article 3 — The Software Factory — Deterministic Production, Verified Safety](URL_TBD_ARTICLE_3)
-- **Next**: [Article 5 — Value Migration — From Code to Business Integration](URL_TBD_ARTICLE_5)
+- **Previous**: [Article 3 — The Software Factory — Deterministic Production, Verified Safety](medium-article-3-the-software-factory.md)
+- **Next**: [Article 5 — Value Migration — From Code to Business Integration](medium-article-5-value-migration.md)
 

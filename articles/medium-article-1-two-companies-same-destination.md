@@ -224,6 +224,6 @@ In Article 2, we’ll zoom out from the narrative and make the argument explicit
 
 ## Series navigation
 
-- **Previous**: [Article 0 — The End of “Software as Craft”](URL_TBD_ARTICLE_0)
-- **Next**: [Article 2 — Convergence — One Standard Across Product + Engineering + Ops](URL_TBD_ARTICLE_2)
+- **Previous**: [Article 0 — The End of “Software as Craft”](medium-article-0-the-end-of-software-as-craft.md)
+- **Next**: [Article 2 — Convergence — One Standard Across Product + Engineering + Ops](medium-article-2-convergence-one-standard.md)
 

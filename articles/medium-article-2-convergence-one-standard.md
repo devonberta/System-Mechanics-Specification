@@ -234,6 +234,6 @@ In Article 3, we’ll turn that standard into an industrial pipeline: the **soft
 
 ## Series navigation
 
-- **Previous**: [Article 1 — Two Companies, Same Destination](URL_TBD_ARTICLE_1)
-- **Next**: [Article 3 — The Software Factory — Deterministic Production, Verified Safety](URL_TBD_ARTICLE_3)
+- **Previous**: [Article 1 — Two Companies, Same Destination](medium-article-1-two-companies-same-destination.md)
+- **Next**: [Article 3 — The Software Factory — Deterministic Production, Verified Safety](medium-article-3-the-software-factory.md)
 

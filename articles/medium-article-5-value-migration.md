@@ -141,6 +141,6 @@ In Article 6, we’ll push this to its logical end: if partners integrate at the
 
 ## Series navigation
 
-- **Previous**: [Article 4 — Operating the Factory — From DevOps to System Stewardship](URL_TBD_ARTICLE_4)
-- **Next**: [Article 6 — The “Intent Interface” Replaces Apps](URL_TBD_ARTICLE_6)
+- **Previous**: [Article 4 — Operating the Factory — From DevOps to System Stewardship](medium-article-4-operating-the-factory.md)
+- **Next**: [Article 6 — The “Intent Interface” Replaces Apps](medium-article-6-intent-interface.md)
 

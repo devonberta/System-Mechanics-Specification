@@ -217,6 +217,6 @@ In Article 4, we’ll shift from building the factory to **operating** it: how �
 
 ## Series navigation
 
-- **Previous**: [Article 2 — Convergence — One Standard Across Product + Engineering + Ops](URL_TBD_ARTICLE_2)
-- **Next**: [Article 4 — Operating the Factory — From DevOps to System Stewardship](URL_TBD_ARTICLE_4)
+- **Previous**: [Article 2 — Convergence — One Standard Across Product + Engineering + Ops](medium-article-2-convergence-one-standard.md)
+- **Next**: [Article 4 — Operating the Factory — From DevOps to System Stewardship](medium-article-4-operating-the-factory.md)
 
